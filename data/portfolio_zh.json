@@ -96,18 +96,18 @@
   ],
   "demos": [
     {
-      "description": "面向课程学习的辅助工具，累计访问超过 110k，GitHub 获得 21 Stars。",
-      "logo": "https://duaa.singledog233.top/logo.svg",
+      "description": "面向课程学习的辅助工具，累计访问超过 120k，GitHub 获得 36 Stars。",
+      "logo": "https://duaa.singledog233.top/v2_compressed.svg",
       "url": "https://duaa.singledog233.top",
       "link_label": "访问网站 ↗",
       "repo": "https://github.com/singledog957/duaa",
       "metrics": [
         {
-          "value": "110k+",
+          "value": "120k+",
           "label": "访问量"
         },
         {
-          "value": "21",
+          "value": "36",
           "label": "GitHub Stars"
         }
       ],

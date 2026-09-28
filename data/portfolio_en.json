@@ -168,18 +168,18 @@
   ],
   "demos": [
     {
-      "description": "A course assistance tool with over 110k visits and 21 GitHub stars.",
-      "logo": "https://duaa.singledog233.top/logo.svg",
+      "description": "A course assistance tool with over 120k visits and 36 GitHub stars.",
+      "logo": "https://duaa.singledog233.top/v2_compressed.svg",
       "url": "https://duaa.singledog233.top",
       "link_label": "Visit website ↗",
       "repo": "https://github.com/singledog957/duaa",
       "metrics": [
         {
-          "value": "110k+",
+          "value": "120k+",
           "label": "Visits"
         },
         {
-          "value": "21",
+          "value": "36",
           "label": "GitHub Stars"
         }
       ],
