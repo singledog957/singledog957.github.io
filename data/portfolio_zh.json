@@ -267,7 +267,7 @@
     },
     {
       "short": "ADAPT",
-      "title": "复合噪声下的分层训练",
+      "title": "ADC-aware Distillation and Antithetic Pathwise Training",
       "category": "梯度估计 · 知识蒸馏",
       "summary": "模拟噪声与 ADC 量化对硬件感知训练提出了不同挑战。我提出并设计了结合连续噪声 Pathwise 梯度、量化 Hard-STE 与知识蒸馏的训练框架，以及比较梯度估计与噪声采样策略的实验方案。",
       "result": "CIFAR-10 的 12 组配置 × 3 个训练种子实验中，Logits KD 在六种梯度/采样条件下均带来约 1.02–1.34 个百分点提升。",

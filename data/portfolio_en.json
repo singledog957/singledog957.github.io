@@ -135,7 +135,7 @@
     },
     {
       "short": "ADAPT",
-      "title": "Layered training under compound noise",
+      "title": "ADC-aware Distillation and Antithetic Pathwise Training",
       "category": "Gradient estimation · Distillation",
       "summary": "Analog noise and ADC quantization pose different challenges for hardware-aware training. I conceived and designed a training framework combining Pathwise gradients for continuous noise, Hard-STE for quantization, and knowledge distillation, with an experimental design comparing gradient estimators and noise sampling strategies.",
       "result": "Across 12 CIFAR-10 configurations and three training seeds each, logits KD improved accuracy by about 1.02–1.34 percentage points across six gradient/sampling settings.",
