@@ -30,7 +30,7 @@
   "papers_title": "Publications",
   "papers_subtitle": "Published, accepted, and submitted work",
   "research_title": "Research",
-  "research_subtitle": "CIM algorithms & competition projects",
+  "research_subtitle": "CIM algorithms, efficient LLM inference & competition projects",
   "engineering_title": "Engineering",
   "engineering_subtitle": "Electronic design and implementation",
   "projects_title": "Projects",
@@ -50,11 +50,35 @@
   "publications": [
     {
       "venue": "DATE 2027",
+      "rankings": [
+        {
+          "label": "CORE-A",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/421/"
+        }
+      ],
+      "status": "Under review",
+      "authorship": "Sole first author",
+      "title": "RECAP: Recent-Context-Aware KV Cache Pruning for Efficient Long-Context Speculative Decoding",
+      "summary": "Recent-query-guided KV selection and asymmetric K8/V4 quantization accelerate speculative drafting while retaining full-cache verification.",
+      "paper_url": "",
+      "paper_state": "review"
+    },
+    {
+      "venue": "DATE 2027",
       "status": "Under review",
       "title": "CNKD · Noise-robust and data-efficient knowledge distillation for vision transformers",
       "summary": "Clean-to-noisy knowledge distillation and the trade-off between robust accuracy and training data access.",
       "paper_url": "",
-      "paper_state": "review"
+      "paper_state": "review",
+      "rankings": [
+        {
+          "label": "CORE-A",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/421/"
+        }
+      ],
+      "authorship": "Sole first author"
     },
     {
       "venue": "ICSICT 2026",
@@ -70,7 +94,15 @@
       "title": "INFER: Implicit Neural Framework for Efficient Representation of Noise in Analog CIM",
       "summary": "Implicit neural representations of noise in analog compute-in-memory.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CCF-B",
+          "note": "CCF recommended conferences",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/bl/2017-03-13/586393.shtml"
+        }
+      ],
+      "authorship": "Third author"
     },
     {
       "venue": "ASP-DAC 2027",
@@ -78,7 +110,14 @@
       "title": "ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware",
       "summary": "Adaptive stochastic sampling for diffusion models on analog CIM hardware.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CORE-B",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/162/"
+        }
+      ]
     },
     {
       "venue": "DAC 2027",
@@ -86,7 +125,14 @@
       "title": "IGNITE: An Inquisitive and Graph-Aware Neural CircuitSimulator with Two-Stage Enhanced In-Context Learning",
       "summary": "Graph-aware neural circuit simulation with two-stage enhanced in-context learning.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CCF-A",
+          "note": "CCF recommended conferences",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/al/2019-05-14/665208.shtml"
+        }
+      ]
     },
     {
       "venue": "ISEDA 2027",
@@ -102,7 +148,20 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C",
       "status": "Published",
       "paper_state": "published",
-      "summary": "A lightweight multimodal wearable system for continuous health monitoring and location tracking."
+      "summary": "A lightweight multimodal wearable system for continuous health monitoring and location tracking.",
+      "rankings": [
+        {
+          "label": "SCI Q2",
+          "note": "Journal partition supplied by the author",
+          "url": ""
+        },
+        {
+          "label": "JCR Q1",
+          "note": "JCR quartile · 2025 listing",
+          "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/394/IEEE_Sensors_Journal"
+        }
+      ],
+      "authorship": "Third author"
     },
     {
       "title": "A multimodal CNN–transformer network for gait pattern recognition with wearable sensors in weak GNSS scenarios",
@@ -110,7 +169,14 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u-x6o8ySG0sC",
       "status": "Published",
       "paper_state": "published",
-      "summary": "Multimodal CNN–Transformer gait recognition using wearable sensors in weak GNSS scenarios."
+      "summary": "Multimodal CNN–Transformer gait recognition using wearable sensors in weak GNSS scenarios.",
+      "rankings": [
+        {
+          "label": "JCR Q2",
+          "note": "JCR · Engineering, Electrical and Electronic",
+          "url": "https://www.mdpi.com/journal/Electronics"
+        }
+      ]
     },
     {
       "title": "Multimodal spatiotemporal feature-based human motion pattern recognition with CNN-transformer-attention framework",
@@ -118,10 +184,32 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u5HHmVD_uO8C",
       "status": "Published",
       "paper_state": "published",
-      "summary": "Human motion pattern recognition using multimodal spatiotemporal features and a CNN–Transformer–Attention framework."
+      "summary": "Human motion pattern recognition using multimodal spatiotemporal features and a CNN–Transformer–Attention framework.",
+      "rankings": [
+        {
+          "label": "SCI Q1",
+          "note": "Journal partition supplied by the author",
+          "url": ""
+        },
+        {
+          "label": "JCR Q1",
+          "note": "JCR quartile · 2025 listing",
+          "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/937/IEEE_Internet_of_Things_Journal"
+        }
+      ]
     }
   ],
   "research": [
+    {
+      "short": "RECAP",
+      "title": "Recent-context-aware KV cache pruning for speculative decoding",
+      "category": "Efficient LLM inference · KV cache",
+      "summary": "Designed a draft-cache framework that selects historical KV entries once using recent prompt queries, reuses them alongside a sliding local window, and applies asymmetric K8/V4 quantization. The same model verifies candidate tokens against its complete BF16 cache. Evaluated on Qwen2.5-7B/14B and Mistral-7B across 8K–32K contexts.",
+      "result": "At 32K context, generation-stage speedup of 1.70×–2.21× over full-cache D16 BF16 self-speculation (excluding initial cache construction). At concurrency 8, 32K serving throughput increased by 18.9% over fixed-neighbor caching.",
+      "repo": "",
+      "paper_url": "",
+      "paper_state": "review"
+    },
     {
       "short": "ELISA",
       "title": "Energy-Linear Interpolation with Stability Analysis",

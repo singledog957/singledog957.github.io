@@ -2,11 +2,35 @@
   "publications": [
     {
       "venue": "DATE 2027",
+      "rankings": [
+        {
+          "label": "CORE-A",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/421/"
+        }
+      ],
+      "status": "在投",
+      "authorship": "独立一作",
+      "title": "RECAP: Recent-Context-Aware KV Cache Pruning for Efficient Long-Context Speculative Decoding",
+      "summary": "利用近期查询引导历史 KV 选择，结合 K8/V4 非对称量化加速推测解码，并保留完整 KV 缓存进行验证。",
+      "paper_url": "",
+      "paper_state": "review"
+    },
+    {
+      "venue": "DATE 2027",
       "status": "在投",
       "title": "CNKD · 视觉 Transformer 噪声鲁棒性与数据高效知识蒸馏研究",
       "summary": "干净教师到带噪学生的蒸馏恢复，以及精度与训练样本预算之间的权衡。",
       "paper_url": "",
-      "paper_state": "review"
+      "paper_state": "review",
+      "rankings": [
+        {
+          "label": "CORE-A",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/421/"
+        }
+      ],
+      "authorship": "独立一作"
     },
     {
       "venue": "ICSICT 2026",
@@ -22,7 +46,15 @@
       "title": "INFER: Implicit Neural Framework for Efficient Representation of Noise in Analog CIM",
       "summary": "使用隐式神经表示研究模拟存算中的噪声响应。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CCF-B",
+          "note": "CCF 推荐国际学术会议目录",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/bl/2017-03-13/586393.shtml"
+        }
+      ],
+      "authorship": "第三作者"
     },
     {
       "venue": "ASP-DAC 2027",
@@ -30,7 +62,14 @@
       "title": "ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware",
       "summary": "模拟存算硬件上扩散模型的鲁棒性与自适应随机采样。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CORE-B",
+          "note": "ICORE2026",
+          "url": "https://portal.core.edu.au/conf-ranks/162/"
+        }
+      ]
     },
     {
       "venue": "DAC 2027",
@@ -38,7 +77,14 @@
       "title": "IGNITE: An Inquisitive and Graph-Aware Neural CircuitSimulator with Two-Stage Enhanced In-Context Learning",
       "summary": "结合图结构与两阶段上下文学习的神经电路模拟。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "rankings": [
+        {
+          "label": "CCF-A",
+          "note": "CCF 推荐国际学术会议目录",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/al/2019-05-14/665208.shtml"
+        }
+      ]
     },
     {
       "venue": "ISEDA 2027",
@@ -54,7 +100,20 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C",
       "status": "已发表",
       "paper_state": "published",
-      "summary": "多模态传感融合的轻量化可穿戴系统，用于持续健康监测与位置追踪。"
+      "summary": "多模态传感融合的轻量化可穿戴系统，用于持续健康监测与位置追踪。",
+      "rankings": [
+        {
+          "label": "SCI Q2",
+          "note": "期刊分区口径由作者提供",
+          "url": ""
+        },
+        {
+          "label": "JCR Q1",
+          "note": "JCR 分区 · 2025 年数据",
+          "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/394/IEEE_Sensors_Journal"
+        }
+      ],
+      "authorship": "第三作者"
     },
     {
       "title": "A multimodal CNN–transformer network for gait pattern recognition with wearable sensors in weak GNSS scenarios",
@@ -62,7 +121,14 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u-x6o8ySG0sC",
       "status": "已发表",
       "paper_state": "published",
-      "summary": "面向弱 GNSS 场景，利用可穿戴传感器与多模态 CNN–Transformer 网络进行步态模式识别。"
+      "summary": "面向弱 GNSS 场景，利用可穿戴传感器与多模态 CNN–Transformer 网络进行步态模式识别。",
+      "rankings": [
+        {
+          "label": "JCR Q2",
+          "note": "JCR · 电气与电子工程",
+          "url": "https://www.mdpi.com/journal/Electronics"
+        }
+      ]
     },
     {
       "title": "Multimodal spatiotemporal feature-based human motion pattern recognition with CNN-transformer-attention framework",
@@ -70,7 +136,19 @@
       "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u5HHmVD_uO8C",
       "status": "已发表",
       "paper_state": "published",
-      "summary": "基于多模态时空特征与 CNN–Transformer–Attention 框架的人体运动模式识别。"
+      "summary": "基于多模态时空特征与 CNN–Transformer–Attention 框架的人体运动模式识别。",
+      "rankings": [
+        {
+          "label": "SCI Q1",
+          "note": "期刊分区口径由作者提供",
+          "url": ""
+        },
+        {
+          "label": "JCR Q1",
+          "note": "JCR 分区 · 2025 年数据",
+          "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/937/IEEE_Internet_of_Things_Journal"
+        }
+      ]
     }
   ],
   "engineering": [
@@ -236,7 +314,7 @@
   "papers_title": "论文",
   "papers_subtitle": "已发表、已录用与在投工作",
   "research_title": "研究",
-  "research_subtitle": "存算算法探索与竞赛实践",
+  "research_subtitle": "存算算法、高效大模型推理与竞赛项目",
   "engineering_title": "工程实践",
   "engineering_subtitle": "电子设计与系统实现",
   "projects_title": "项目",
@@ -254,6 +332,16 @@
   "site_title": "谢雨鑫 Yuxin Xie · 学术主页",
   "description": "谢雨鑫的个人学术主页：模拟存算一体、硬件感知机器学习、论文与电子工程项目。",
   "research": [
+    {
+      "short": "RECAP",
+      "title": "面向长上下文推测解码的近期上下文感知 KV 缓存剪枝",
+      "category": "高效大模型推理 · KV 缓存",
+      "summary": "设计近期上下文感知的草稿缓存框架：根据近期提示查询一次性选择并复用历史 KV，结合滑动局部窗口与 K8/V4 非对称量化降低草稿阶段开销，再由同一模型使用完整 BF16 缓存验证候选 token。在 Qwen2.5-7B/14B 与 Mistral-7B 上评估 8K–32K 上下文。",
+      "result": "32K 上下文下，相较完整缓存 D16 BF16 自推测基线，生成阶段加速 1.70×–2.21×（不含初始缓存构建）；32K、并发 8 时，服务吞吐较固定邻域缓存提升 18.9%。",
+      "repo": "",
+      "paper_url": "",
+      "paper_state": "review"
+    },
     {
       "short": "ELISA",
       "title": "Energy-Linear Interpolation with Stability Analysis",

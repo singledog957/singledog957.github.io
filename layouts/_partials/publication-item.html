@@ -1,3 +1,10 @@
 {{ $d := .labels }}{{ with .item }}
-<article class="paper"><div class="paper-meta"><span class="venue">{{ .venue }}</span><span>{{ .status }}</span></div><h3>{{ if .paper_url }}<a href="{{ .paper_url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3><p>{{ .summary }}</p>{{ partial "paper-link.html" (dict "item" . "labels" $d) }}</article>
+<article class="paper">
+  <div class="paper-meta">
+    <div class="venue-group"><span class="venue">{{ .venue }}</span>{{ range .rankings }}{{ if .url }}<a class="venue-ranking" href="{{ .url }}" title="{{ .note }}">{{ .label }}</a>{{ else }}<span class="venue-ranking" title="{{ .note }}">{{ .label }}</span>{{ end }}{{ end }}</div>
+    <span>{{ .status }}</span>{{ with .authorship }}<span class="paper-authorship">{{ . }}</span>{{ end }}
+  </div>
+  <h3>{{ if .paper_url }}<a href="{{ .paper_url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
+  <p>{{ .summary }}</p>{{ partial "paper-link.html" (dict "item" . "labels" $d) }}
+</article>
 {{ end }}
