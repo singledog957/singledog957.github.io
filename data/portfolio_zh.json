@@ -38,7 +38,8 @@
       "title": "RBGR: Backward-Only Residual Gradient Reweighting for Robust Analog CIM Inference",
       "summary": "通过反向梯度重加权研究模拟存算环境中的残差网络鲁棒性。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "authorship": "共同一作"
     },
     {
       "venue": "ICCD 2026",

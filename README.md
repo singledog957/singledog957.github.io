@@ -5,7 +5,7 @@ Based on HugoBlox Academic CV, with a customized academic layout and bilingual c
 ## Content
 - `data/portfolio_en.json` and `data/portfolio_zh.json`: localized profile, publications, research, engineering projects, demos, and awards.
 - `paper_url`: set to an actual paper URL when available. Empty URLs render as disabled gray labels. `paper_state` distinguishes `review`, `forthcoming`, and `no_paper`.
-- `authorship`: optional localized author role, displayed next to publication status. Only add roles confirmed by the author.
+- `authorship`: optional localized author role, displayed next to publication status. Only add roles confirmed by the author. English labels use `First author`, `Co-first author`, and `Third author`; Chinese distinguishes `独立一作` and `共同一作`.
 - `rankings`: independent venue badges with `label`, `note`, and optional source `url`. Keep only the higher CCF/CORE grade for conferences. CORE badges use the latest ICORE2026 release.
 - No separately maintained research detail pages.
 - `static/images/personal_page.jpg`: original photograph, displayed with a CSS crop. The source image is unchanged.

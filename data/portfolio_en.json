@@ -58,7 +58,7 @@
         }
       ],
       "status": "Under review",
-      "authorship": "Sole first author",
+      "authorship": "First author",
       "title": "RECAP: Recent-Context-Aware KV Cache Pruning for Efficient Long-Context Speculative Decoding",
       "summary": "Recent-query-guided KV selection and asymmetric K8/V4 quantization accelerate speculative drafting while retaining full-cache verification.",
       "paper_url": "",
@@ -78,7 +78,7 @@
           "url": "https://portal.core.edu.au/conf-ranks/421/"
         }
       ],
-      "authorship": "Sole first author"
+      "authorship": "First author"
     },
     {
       "venue": "ICSICT 2026",
@@ -86,7 +86,8 @@
       "title": "RBGR: Backward-Only Residual Gradient Reweighting for Robust Analog CIM Inference",
       "summary": "Backward-only gradient reweighting for residual networks under analog CIM non-idealities.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "authorship": "Co-first author"
     },
     {
       "venue": "ICCD 2026",
