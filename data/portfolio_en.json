@@ -202,16 +202,6 @@
   ],
   "research": [
     {
-      "short": "RECAP",
-      "title": "Recent-context-aware KV cache pruning for speculative decoding",
-      "category": "Efficient LLM inference · KV cache",
-      "summary": "Designed a draft-cache framework that selects historical KV entries once using recent prompt queries, reuses them alongside a sliding local window, and applies asymmetric K8/V4 quantization. The same model verifies candidate tokens against its complete BF16 cache. Evaluated on Qwen2.5-7B/14B and Mistral-7B across 8K–32K contexts.",
-      "result": "At 32K context, generation-stage speedup of 1.70×–2.21× over full-cache D16 BF16 self-speculation (excluding initial cache construction). At concurrency 8, 32K serving throughput increased by 18.9% over fixed-neighbor caching.",
-      "repo": "",
-      "paper_url": "",
-      "paper_state": "review"
-    },
-    {
       "short": "ELISA",
       "title": "Energy-Linear Interpolation with Stability Analysis",
       "category": "Error modeling · Calibration",
@@ -231,7 +221,7 @@
       "repo": "",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "Competition: 2026 Inno CIM University Challenge (存算一体高校挑战赛)"
+      "competition": "Competition: 2026 Inno CIM University Challenge (存算一体高校挑战赛) · First Prize"
     }
   ],
   "engineering": [
@@ -246,7 +236,8 @@
       "date": "2024.09–2025.02",
       "title": "Wearable health-monitoring device",
       "description": "Developed real-time ECG and PPG acquisition and processing, with multi-sensor fusion for heart-rate and oxygen-saturation estimation and HRV analysis.",
-      "result": "Project outcome: one published paper in a JCR Q1 journal"
+      "result": "Paper",
+      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C"
     },
     {
       "date": "2024.08",

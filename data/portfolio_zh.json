@@ -164,7 +164,8 @@
       "date": "2024.09–2025.02",
       "title": "健康监测手环",
       "description": "基于多传感器融合完成 ECG、PPG 信号实时采集与处理，提取心率、血氧指标并进行 HRV 分析。",
-      "result": "项目产出 JCR 一区已发表论文 1 篇"
+      "result": "Paper",
+      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C"
     },
     {
       "date": "2024.08",
@@ -334,16 +335,6 @@
   "description": "谢雨鑫的个人学术主页：模拟存算一体、硬件感知机器学习、论文与电子工程项目。",
   "research": [
     {
-      "short": "RECAP",
-      "title": "面向长上下文推测解码的近期上下文感知 KV 缓存剪枝",
-      "category": "高效大模型推理 · KV 缓存",
-      "summary": "设计近期上下文感知的草稿缓存框架：根据近期提示查询一次性选择并复用历史 KV，结合滑动局部窗口与 K8/V4 非对称量化降低草稿阶段开销，再由同一模型使用完整 BF16 缓存验证候选 token。在 Qwen2.5-7B/14B 与 Mistral-7B 上评估 8K–32K 上下文。",
-      "result": "32K 上下文下，相较完整缓存 D16 BF16 自推测基线，生成阶段加速 1.70×–2.21×（不含初始缓存构建）；32K、并发 8 时，服务吞吐较固定邻域缓存提升 18.9%。",
-      "repo": "",
-      "paper_url": "",
-      "paper_state": "review"
-    },
-    {
       "short": "ELISA",
       "title": "Energy-Linear Interpolation with Stability Analysis",
       "category": "误差建模 · 少样本校准",
@@ -363,7 +354,7 @@
       "repo": "",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "参赛：2026 Inno CIM 存算一体高校挑战赛"
+      "competition": "参赛：2026 Inno CIM 存算一体高校挑战赛 · 一等奖"
     }
   ],
   "education": [

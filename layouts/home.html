@@ -38,7 +38,7 @@
   </section>
   <section id="engineering" class="section wrap">
     <div class="section-label"><span>03 / ENGINEERING</span><h2>{{ $d.engineering_title }}</h2><p>{{ $d.engineering_subtitle }}</p></div>
-    <div class="section-content">{{ range $d.engineering }}<article class="engineering-item"><div class="engineering-date">{{ .date }}</div><div><h3>{{ .title }}</h3><p>{{ .description }}</p><p class="achievement">{{ .result }}</p>{{ with .repo }}<a class="text-link small" href="{{ . }}">{{ partial "github-icon.html" . }} {{ $d.code }} ↗</a>{{ end }}</div></article>{{ end }}</div>
+    <div class="section-content">{{ range $d.engineering }}<article class="engineering-item"><div class="engineering-date">{{ .date }}</div><div><h3>{{ .title }}</h3><p>{{ .description }}</p><p class="achievement">{{ if .result_url }}<a href="{{ .result_url }}">{{ .result }}</a>{{ else }}{{ .result }}{{ end }}</p>{{ with .repo }}<a class="text-link small" href="{{ . }}">{{ partial "github-icon.html" . }} {{ $d.code }} ↗</a>{{ end }}</div></article>{{ end }}</div>
   </section>
   <section id="projects" class="section wrap">
     <div class="section-label"><span>04 / PROJECTS</span><h2>{{ $d.projects_title }}</h2><p>{{ $d.projects_subtitle }}</p></div>
