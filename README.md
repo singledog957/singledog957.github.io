@@ -11,7 +11,7 @@ Based on HugoBlox Academic CV, with a customized academic layout and bilingual c
 - `static/images/personal_page.jpg`: original photograph, displayed with a CSS crop. The source image is unchanged.
 
 ## Local preview
-FVC uses the original manuscript title, with ICCS 2026 submission and co-first authorship confirmed in `candidates-v3/projects.md`. Its bilingual summary follows `projects/iccs_freq.txt`; the 51.00% to 63.65% ImageNet-1K result compares against the noisy baseline without robust training. Acceptance is not confirmed, and the local manuscript PDF is not published here.
+FVC uses the original manuscript title, with ICCS 2026 acceptance and co-first authorship confirmed in `candidates-v3/projects.md`. Its bilingual summary follows `projects/iccs_freq.txt`; the 51.00% to 63.65% ImageNet-1K result compares against the noisy baseline without robust training. Acceptance was confirmed by the author on 2026-10-25; the paper is forthcoming. The local manuscript PDF is not published here.
 
 Hugo Extended 0.162.0 and Go are required. `pnpm dev` starts the preview; `pnpm build` generates `dist/`. The customized layouts use plain CSS and do not need Tailwind compilation.
 
