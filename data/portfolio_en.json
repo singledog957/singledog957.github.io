@@ -49,6 +49,15 @@
   "description": "Yuxin Xie — analog compute-in-memory, hardware-aware machine learning, publications, and electronic engineering projects.",
   "publications": [
     {
+      "venue": "ICCS 2026",
+      "status": "Under review",
+      "authorship": "Co-first author",
+      "title": "Frequency-View Consistency Learning for Robust Vision Transformers on Analog CIM Hardware",
+      "summary": "Consistency learning between original and low-pass image views improves ViT/DeiT robustness to analog CIM noise without additional inference branches. On ImageNet-1K, ViT-Tiny Top-1 accuracy rises from 51.00% to 63.65% versus the noisy baseline without robust training.",
+      "paper_url": "",
+      "paper_state": "review"
+    },
+    {
       "venue": "DATE 2027",
       "rankings": [
         {

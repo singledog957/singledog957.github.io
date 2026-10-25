@@ -1,6 +1,15 @@
 {
   "publications": [
     {
+      "venue": "ICCS 2026",
+      "status": "在投",
+      "authorship": "共同一作",
+      "title": "Frequency-View Consistency Learning for Robust Vision Transformers on Analog CIM Hardware",
+      "summary": "通过原图与低通图的频域视图一致性学习，提升 ViT/DeiT 对模拟 CIM 噪声的鲁棒性，推理阶段无需增加分支。在 ImageNet-1K 上，相比未经鲁棒训练的含噪基线，ViT-Tiny 的 Top-1 准确率由 51.00% 提升至 63.65%。",
+      "paper_url": "",
+      "paper_state": "review"
+    },
+    {
       "venue": "DATE 2027",
       "rankings": [
         {
