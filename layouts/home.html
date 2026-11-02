@@ -30,7 +30,7 @@
     </div></div>
   </section>
   <section id="research" class="section wrap">
-    <div class="section-label"><span>02 / RESEARCH</span><h2>{{ $d.research_title }}</h2><p>{{ $d.research_subtitle }}</p></div>
+    <div class="section-label"><span>02 / COMPETITIONS</span><h2>{{ $d.research_title }}</h2><p>{{ $d.research_subtitle }}</p></div>
     <div class="section-content research-list">
       {{ range first 3 $d.research }}{{ partial "research-item.html" (dict "item" . "labels" $d) }}{{ end }}
       {{ if gt (len $d.research) 3 }}<details class="expand-list"><summary><span class="expand-label">{{ $d.expand_research }} <span class="expand-count">{{ len $d.research }}</span></span><span class="collapse-label">{{ $d.collapse }}</span><span class="expand-chevron" aria-hidden="true">⌄</span></summary><div class="expanded-items">{{ range after 3 $d.research }}{{ partial "research-item.html" (dict "item" . "labels" $d) }}{{ end }}</div></details>{{ end }}

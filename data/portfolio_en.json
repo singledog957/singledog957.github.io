@@ -8,7 +8,7 @@
   "nav": [
     "About",
     "Publications",
-    "Research",
+    "Competitions",
     "Projects",
     "Experience"
   ],
@@ -26,10 +26,10 @@
   ],
   "education_title": "Education",
   "education_note": "Rank: 2/33 · CET-6: 639 · Outstanding Graduate of Beihang University",
-  "view_research": "Explore research",
+  "view_research": "Explore competitions",
   "papers_title": "Publications",
   "papers_subtitle": "Published, accepted, and submitted work",
-  "research_title": "Research",
+  "research_title": "Competitions",
   "research_subtitle": "CIM algorithms, efficient LLM inference & competition projects",
   "engineering_title": "Engineering",
   "engineering_subtitle": "Electronic design and implementation",
@@ -425,6 +425,5 @@
   "expand_papers": "Show all publications",
   "expand_research": "Show all research",
   "collapse": "Show less",
-  "enlarge_image": "View larger image",
-  "generated_image": "AI-generated illustration"
+  "enlarge_image": "View larger image"
 }

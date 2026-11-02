@@ -5,6 +5,5 @@
   <a class="work-image-link" href="{{ .image | relURL }}" aria-label="{{ $d.enlarge_image }}: {{ .title }}">
     <img class="work-image" src="{{ $thumbnail | relURL }}" srcset="{{ $thumbnail | relURL }} {{ $config.Width }}w{{ if ne $thumbnail .image }}, {{ .image | relURL }} {{ (images.Config (printf "static/%s" .image)).Width }}w{{ end }}" sizes="(max-width: 540px) calc(100vw - 36px), (max-width: 700px) 220px, (max-width: 1000px) 160px, 210px" alt="{{ .image_alt | default .title }}" width="{{ $config.Width }}" height="{{ $config.Height }}" loading="lazy" decoding="async">
   </a>
-  {{ if .image_generated }}<figcaption>{{ $d.generated_image }}</figcaption>{{ end }}
 </figure>
 {{ end }}{{ end }}

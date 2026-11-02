@@ -324,7 +324,7 @@
   "nav": [
     "关于",
     "论文",
-    "研究",
+    "竞赛",
     "作品",
     "经历"
   ],
@@ -342,10 +342,10 @@
   ],
   "education_title": "教育经历",
   "education_note": "专业排名 2/33 · CET-6 639 · 北航优秀毕业生",
-  "view_research": "查看研究项目",
+  "view_research": "查看竞赛项目",
   "papers_title": "论文",
   "papers_subtitle": "已发表、已录用与在投工作",
-  "research_title": "研究",
+  "research_title": "竞赛",
   "research_subtitle": "存算算法、高效大模型推理与竞赛项目",
   "engineering_title": "工程实践",
   "engineering_subtitle": "电子设计与系统实现",
@@ -425,6 +425,5 @@
   "expand_papers": "展开全部论文",
   "expand_research": "展开全部研究",
   "collapse": "收起",
-  "enlarge_image": "查看大图",
-  "generated_image": "AI 生成示意图"
+  "enlarge_image": "查看大图"
 }

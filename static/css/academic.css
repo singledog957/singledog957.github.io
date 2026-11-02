@@ -40,7 +40,6 @@
 .work-figure{margin:4px 0 0;min-width:0}
 .work-image-link{display:flex;align-items:center;justify-content:center;min-height:130px;padding:6px;border:1px solid var(--line);border-radius:5px;background:#fff}
 .work-image{display:block;width:100%;height:auto;max-height:180px;object-fit:contain}
-.work-figure figcaption{margin-top:5px;font-size:11px;line-height:1.5;color:var(--muted)}
 .interest-image{display:block;width:100%;max-width:290px;height:auto;margin-top:20px}
 .education-heading{display:flex;align-items:center;gap:10px}
 .education-logo{width:44px;height:44px;object-fit:contain;flex-shrink:0}

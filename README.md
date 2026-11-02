@@ -10,7 +10,7 @@ Based on HugoBlox Academic CV, with a customized academic layout and bilingual c
 - No separately maintained research detail pages.
 - `static/images/personal_page.jpg`: original photograph, displayed with a CSS crop. The source image is unchanged.
 - `static/images/work/`: optimized WebP figures, university logo, and engineering illustrations. Work thumbnails use responsive sources, lazy loading, and links to larger uncropped images. Source figures remain in the author's local `sup_pics/` folder.
-- The monocular measurement and single-phase analyzer images are illustrative concepts generated with the built-in imagegen tool, labeled as AI-generated in both languages. They are not photographs of the actual prototypes. Their prompts are recorded in `docs/image-prompts.json`.
+- The monocular measurement and single-phase analyzer images are illustrative concepts generated with the built-in imagegen tool. They are not photographs of the actual prototypes. Their generation provenance and prompts are recorded here and in `docs/image-prompts.json`.
 - Award percentile and scholarship recipient notes are supplied by the author; the numeric values are emphasized in both languages.
 
 ## Local preview
