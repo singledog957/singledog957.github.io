@@ -9,6 +9,9 @@ Based on HugoBlox Academic CV, with a customized academic layout and bilingual c
 - `rankings`: independent venue badges with `label`, `note`, and optional source `url`. Keep only the higher CCF/CORE grade for conferences. CORE badges use the latest ICORE2026 release.
 - No separately maintained research detail pages.
 - `static/images/personal_page.jpg`: original photograph, displayed with a CSS crop. The source image is unchanged.
+- `static/images/work/`: optimized WebP figures, university logo, and engineering illustrations. Work thumbnails use responsive sources, lazy loading, and links to larger uncropped images. Source figures remain in the author's local `sup_pics/` folder.
+- The monocular measurement and single-phase analyzer images are illustrative concepts generated with the built-in imagegen tool, labeled as AI-generated in both languages. They are not photographs of the actual prototypes. Their prompts are recorded in `docs/image-prompts.json`.
+- Award percentile and scholarship recipient notes are supplied by the author; the numeric values are emphasized in both languages.
 
 ## Local preview
 FVC uses the original manuscript title, with ICCS 2026 acceptance and co-first authorship confirmed in `candidates-v3/projects.md`. Its bilingual summary follows `projects/iccs_freq.txt`; the 51.00% to 63.65% ImageNet-1K result compares against the noisy baseline without robust training. Acceptance was confirmed by the author on 2026-10-25; the paper is forthcoming. The local manuscript PDF is not published here.

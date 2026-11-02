@@ -12,7 +12,7 @@
     "Projects",
     "Experience"
   ],
-  "heading": "Compute-in-memory acceleration for machine learning",
+  "heading": "Yuxin Xie · 谢雨鑫",
   "bio": [
     "I study how non-idealities in **analog compute-in-memory (CIM)** hardware affect neural network inference, and design **hardware-aware algorithms** to improve robustness and efficiency.",
     "I am a master’s student at the School of Integrated Circuit Science and Engineering, Beihang University. I received my B.Eng. in Electronic Information Engineering from Beihang University."
@@ -45,7 +45,7 @@
   "no_paper": "No publication",
   "blog_title": "Technical blog",
   "blog_description": "Research notes, project write-ups, and reflections",
-  "site_title": "Yuxin Xie · Academic Homepage",
+  "site_title": "Yuxin Xie · 谢雨鑫",
   "description": "Yuxin Xie — analog compute-in-memory, hardware-aware machine learning, publications, and electronic engineering projects.",
   "publications": [
     {
@@ -62,12 +62,14 @@
       "title": "RECAP: Recent-Context-Aware KV Cache Pruning for Efficient Long-Context Speculative Decoding",
       "summary": "Recent-query-guided KV selection and asymmetric K8/V4 quantization accelerate speculative drafting while retaining full-cache verification.",
       "paper_url": "",
-      "paper_state": "review"
+      "paper_state": "review",
+      "image": "images/work/recap.webp",
+      "image_thumb": "images/work/recap-640.webp"
     },
     {
       "venue": "DATE 2027",
       "status": "Under review",
-      "title": "CNKD · Noise-robust and data-efficient knowledge distillation for vision transformers",
+      "title": "CNKD: Noise-robust and data-efficient knowledge distillation for vision transformers",
       "summary": "Clean-to-noisy knowledge distillation and the trade-off between robust accuracy and training data access.",
       "paper_url": "",
       "paper_state": "review",
@@ -78,7 +80,9 @@
           "url": "https://portal.core.edu.au/conf-ranks/421/"
         }
       ],
-      "authorship": "First author"
+      "authorship": "First author",
+      "image": "images/work/cnkd.webp",
+      "image_thumb": "images/work/cnkd-640.webp"
     },
     {
       "venue": "ICSICT 2026",
@@ -87,7 +91,9 @@
       "summary": "Backward-only gradient reweighting for residual networks under analog CIM non-idealities.",
       "paper_url": "",
       "paper_state": "forthcoming",
-      "authorship": "Co-first author"
+      "authorship": "Co-first author",
+      "image": "images/work/rbgr.webp",
+      "image_thumb": "images/work/rbgr-640.webp"
     },
     {
       "venue": "ICCD 2026",
@@ -103,7 +109,9 @@
           "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/bl/2017-03-13/586393.shtml"
         }
       ],
-      "authorship": "Third author"
+      "authorship": "Third author",
+      "image": "images/work/infer.webp",
+      "image_thumb": "images/work/infer-640.webp"
     },
     {
       "venue": "ICCS 2026",
@@ -112,7 +120,9 @@
       "title": "Frequency-View Consistency Learning for Robust Vision Transformers on Analog CIM Hardware",
       "summary": "Consistency learning between original and low-pass image views improves ViT/DeiT robustness to analog CIM noise without additional inference branches. On ImageNet-1K, ViT-Tiny Top-1 accuracy rises from 51.00% to 63.65% versus the noisy baseline without robust training.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "image": "images/work/fcv.webp",
+      "image_thumb": "images/work/fcv-640.webp"
     },
     {
       "venue": "ASP-DAC 2027",
@@ -127,7 +137,9 @@
           "note": "ICORE2026",
           "url": "https://portal.core.edu.au/conf-ranks/162/"
         }
-      ]
+      ],
+      "image": "images/work/assert.webp",
+      "image_thumb": "images/work/assert-640.webp"
     },
     {
       "venue": "DAC 2027",
@@ -142,7 +154,9 @@
           "note": "CCF recommended conferences",
           "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/al/2019-05-14/665208.shtml"
         }
-      ]
+      ],
+      "image": "images/work/ignite.webp",
+      "image_thumb": "images/work/ignite-640.webp"
     },
     {
       "venue": "ISEDA 2027",
@@ -150,7 +164,9 @@
       "title": "Toward Reliable Analog In-Memory Computing: Co-Design of Hardware-Aware Input Processing and Accuracy-Optimized Weight Mapping",
       "summary": "Co-design of hardware-aware input processing and accuracy-oriented weight mapping.",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "image": "images/work/iseda.webp",
+      "image_thumb": "images/work/iseda.webp"
     },
     {
       "title": "Multimodal sensor fusion-based lightweight pedestrian wearable system for continuous health monitoring and location tracking",
@@ -171,22 +187,9 @@
           "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/394/IEEE_Sensors_Journal"
         }
       ],
-      "authorship": "Third author"
-    },
-    {
-      "title": "A multimodal CNN–transformer network for gait pattern recognition with wearable sensors in weak GNSS scenarios",
-      "venue": "MDPI Electronics",
-      "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u-x6o8ySG0sC",
-      "status": "Published",
-      "paper_state": "published",
-      "summary": "Multimodal CNN–Transformer gait recognition using wearable sensors in weak GNSS scenarios.",
-      "rankings": [
-        {
-          "label": "JCR Q2",
-          "note": "JCR · Engineering, Electrical and Electronic",
-          "url": "https://www.mdpi.com/journal/Electronics"
-        }
-      ]
+      "authorship": "Third author",
+      "image": "images/work/sensors.webp",
+      "image_thumb": "images/work/sensors-640.webp"
     },
     {
       "title": "Multimodal spatiotemporal feature-based human motion pattern recognition with CNN-transformer-attention framework",
@@ -206,7 +209,9 @@
           "note": "JCR quartile · 2025 listing",
           "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/937/IEEE_Internet_of_Things_Journal"
         }
-      ]
+      ],
+      "image": "images/work/iot.webp",
+      "image_thumb": "images/work/iot-640.webp"
     }
   ],
   "research": [
@@ -219,7 +224,9 @@
       "repo": "https://github.com/singledog957/ACTIC2025",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "Competition: Advanced Computing Technology Innovation Competition (ACTIC)"
+      "competition": "Competition: Advanced Computing Technology Innovation Competition (ACTIC)",
+      "image": "images/work/elisa.webp",
+      "image_thumb": "images/work/elisa-640.webp"
     },
     {
       "short": "ADAPT",
@@ -230,7 +237,9 @@
       "repo": "",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "Competition: 2026 Inno CIM University Challenge (存算一体高校挑战赛) · First Prize"
+      "competition": "Competition: 2026 Inno CIM University Challenge (存算一体高校挑战赛) · First Prize",
+      "image": "images/work/adapt.webp",
+      "image_thumb": "images/work/adapt-640.webp"
     }
   ],
   "engineering": [
@@ -239,20 +248,28 @@
       "title": "Monocular target measurement system",
       "description": "Developed the core algorithms for non-contact distance measurement, complex-shape dimension recognition, and tilt correction. Distance error below 2 cm within 2 m; dimension error at most 0.5 cm.",
       "result": "National Second Prize and Beijing First Prize, National Undergraduate Electronic Design Contest",
-      "repo": "https://github.com/singledog957/NUEDC2025"
+      "repo": "https://github.com/singledog957/NUEDC2025",
+      "image": "images/work/monocular-measurement.webp",
+      "image_thumb": "images/work/monocular-measurement-640.webp",
+      "image_generated": true
     },
     {
       "date": "2024.09–2025.02",
       "title": "Wearable health-monitoring device",
       "description": "Developed real-time ECG and PPG acquisition and processing, with multi-sensor fusion for heart-rate and oxygen-saturation estimation and HRV analysis.",
       "result": "Paper",
-      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C"
+      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C",
+      "image": "images/work/sensors.webp",
+      "image_thumb": "images/work/sensors-640.webp"
     },
     {
       "date": "2024.08",
       "title": "Single-phase power analyzer",
       "description": "Implemented voltage and current acquisition and harmonic analysis. Total power consumption at most 50 mW, analysis error at most 1%, and RMS analysis through the 13th harmonic.",
-      "result": "Beijing First Prize, Electronic Design Contest"
+      "result": "Beijing First Prize, Electronic Design Contest",
+      "image": "images/work/single-phase-analyzer.webp",
+      "image_thumb": "images/work/single-phase-analyzer-640.webp",
+      "image_generated": true
     }
   ],
   "demos": [
@@ -296,13 +313,15 @@
       "date": "2025.08",
       "name": "National Undergraduate Electronic Design Contest",
       "award": "National Second Prize",
-      "featured": true
+      "featured": true,
+      "note": "Top **5%** in Beijing"
     },
     {
       "date": "2025.05",
       "name": "Capital Challenge Cup — Special Track",
       "award": "Grand Prize · First Prize",
-      "featured": true
+      "featured": true,
+      "note": "Top **3%** in Beijing"
     },
     {
       "date": "2025.08",
@@ -313,27 +332,32 @@
     {
       "date": "2025.08",
       "name": "Beijing College Students’ Innovation and Entrepreneurship Competition",
-      "award": "First Prize"
+      "award": "First Prize",
+      "note": "Top **3%** in Beijing"
     },
     {
       "date": "2025.06",
       "name": "Beijing Integrated Circuit Design Competition",
-      "award": "Second Prize"
+      "award": "Second Prize",
+      "note": "Top **10%**"
     },
     {
       "date": "2025.06",
       "name": "Beihang Feng Ru Cup — Main Track, Paper Category",
-      "award": "First Prize · Second Prize"
+      "award": "First Prize · Second Prize",
+      "note": "Top **3%**"
     },
     {
       "date": "2025.06",
       "name": "Beihang Electronic Innovation Competition",
-      "award": "First Prize · Second Prize"
+      "award": "First Prize · Second Prize",
+      "note": "Top **5%**"
     },
     {
       "date": "2024.08",
       "name": "National Undergraduate Electronic Design Contest — Beijing",
-      "award": "First Prize"
+      "award": "First Prize",
+      "note": "Top **3%** in Beijing"
     },
     {
       "date": "2024.06",
@@ -363,7 +387,8 @@
     {
       "date": "2025",
       "name": "CETC Ceyear Scholarship",
-      "award": "Recipient"
+      "award": "Recipient",
+      "note": "Only **20** recipients at Beihang each year"
     }
   ],
   "education": [
@@ -399,5 +424,7 @@
   ],
   "expand_papers": "Show all publications",
   "expand_research": "Show all research",
-  "collapse": "Show less"
+  "collapse": "Show less",
+  "enlarge_image": "View larger image",
+  "generated_image": "AI-generated illustration"
 }

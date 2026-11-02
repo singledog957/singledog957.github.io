@@ -1,0 +1,13 @@
+{
+  "tool": "built-in imagegen",
+  "assets": [
+    {
+      "path": "static/images/work/monocular-measurement.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape engineering portfolio thumbnail. Primary request: a casual realistic laboratory snapshot illustrating an undergraduate monocular target measurement system. A small industrial monocular camera on a simple adjustable mount connected to a microcontroller prototype, looking toward a flat white card with a black geometric target on a lab bench. A ruler and jumper wires beside a modest PCB; ordinary university electronics lab, slightly imperfect lived-in desktop, no people. Natural room lighting, realistic electronics materials and camera optics, 3:2 landscape close shot, main apparatus in focus, no brand names, no readable text, no decorative graphics or watermarks. This is an illustrative concept photograph, not documentation of an actual prototype."
+    },
+    {
+      "path": "static/images/work/single-phase-analyzer.webp",
+      "prompt": "Use case: photorealistic-natural. Asset type: landscape engineering portfolio thumbnail. Primary request: a casual realistic laboratory snapshot illustrating a low-power single-phase power analyzer student prototype. A modest unbranded hand-assembled green PCB with a microcontroller, isolated voltage sensing and a small current transformer, a small monochrome screen displaying a simple sine waveform without readable numbers, neatly connected low-voltage test leads. Resting on an ordinary university electronics workbench with a softly blurred oscilloscope behind it. Natural room lighting, realistic solder and component textures, slight everyday clutter, no people. 3:2 landscape close shot, no logos, no readable labels, no watermark. This is an illustrative concept photograph, not documentation of an actual prototype."
+    }
+  ]
+}

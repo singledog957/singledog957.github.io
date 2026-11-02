@@ -14,12 +14,14 @@
       "title": "RECAP: Recent-Context-Aware KV Cache Pruning for Efficient Long-Context Speculative Decoding",
       "summary": "利用近期查询引导历史 KV 选择，结合 K8/V4 非对称量化加速推测解码，并保留完整 KV 缓存进行验证。",
       "paper_url": "",
-      "paper_state": "review"
+      "paper_state": "review",
+      "image": "images/work/recap.webp",
+      "image_thumb": "images/work/recap-640.webp"
     },
     {
       "venue": "DATE 2027",
       "status": "在投",
-      "title": "CNKD · 视觉 Transformer 噪声鲁棒性与数据高效知识蒸馏研究",
+      "title": "CNKD: 视觉 Transformer 噪声鲁棒性与数据高效知识蒸馏研究",
       "summary": "干净教师到带噪学生的蒸馏恢复，以及精度与训练样本预算之间的权衡。",
       "paper_url": "",
       "paper_state": "review",
@@ -30,7 +32,9 @@
           "url": "https://portal.core.edu.au/conf-ranks/421/"
         }
       ],
-      "authorship": "独立一作"
+      "authorship": "独立一作",
+      "image": "images/work/cnkd.webp",
+      "image_thumb": "images/work/cnkd-640.webp"
     },
     {
       "venue": "ICSICT 2026",
@@ -39,7 +43,9 @@
       "summary": "通过反向梯度重加权研究模拟存算环境中的残差网络鲁棒性。",
       "paper_url": "",
       "paper_state": "forthcoming",
-      "authorship": "共同一作"
+      "authorship": "共同一作",
+      "image": "images/work/rbgr.webp",
+      "image_thumb": "images/work/rbgr-640.webp"
     },
     {
       "venue": "ICCD 2026",
@@ -55,7 +61,9 @@
           "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/bl/2017-03-13/586393.shtml"
         }
       ],
-      "authorship": "第三作者"
+      "authorship": "第三作者",
+      "image": "images/work/infer.webp",
+      "image_thumb": "images/work/infer-640.webp"
     },
     {
       "venue": "ICCS 2026",
@@ -64,7 +72,9 @@
       "title": "Frequency-View Consistency Learning for Robust Vision Transformers on Analog CIM Hardware",
       "summary": "通过原图与低通图的频域视图一致性学习，提升 ViT/DeiT 对模拟 CIM 噪声的鲁棒性，推理阶段无需增加分支。在 ImageNet-1K 上，相比未经鲁棒训练的含噪基线，ViT-Tiny 的 Top-1 准确率由 51.00% 提升至 63.65%。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "image": "images/work/fcv.webp",
+      "image_thumb": "images/work/fcv-640.webp"
     },
     {
       "venue": "ASP-DAC 2027",
@@ -79,7 +89,9 @@
           "note": "ICORE2026",
           "url": "https://portal.core.edu.au/conf-ranks/162/"
         }
-      ]
+      ],
+      "image": "images/work/assert.webp",
+      "image_thumb": "images/work/assert-640.webp"
     },
     {
       "venue": "DAC 2027",
@@ -94,7 +106,9 @@
           "note": "CCF 推荐国际学术会议目录",
           "url": "https://www.ccf.org.cn/Academic_Evaluation/ARCH_DCP_SS/zgjsjxhtjgjxshy/al/2019-05-14/665208.shtml"
         }
-      ]
+      ],
+      "image": "images/work/ignite.webp",
+      "image_thumb": "images/work/ignite-640.webp"
     },
     {
       "venue": "ISEDA 2027",
@@ -102,7 +116,9 @@
       "title": "Toward Reliable Analog In-Memory Computing: Co-Design of Hardware-Aware Input Processing and Accuracy-Optimized Weight Mapping",
       "summary": "硬件感知输入处理与权重映射的协同设计。",
       "paper_url": "",
-      "paper_state": "forthcoming"
+      "paper_state": "forthcoming",
+      "image": "images/work/iseda.webp",
+      "image_thumb": "images/work/iseda.webp"
     },
     {
       "title": "Multimodal sensor fusion-based lightweight pedestrian wearable system for continuous health monitoring and location tracking",
@@ -123,22 +139,9 @@
           "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/394/IEEE_Sensors_Journal"
         }
       ],
-      "authorship": "第三作者"
-    },
-    {
-      "title": "A multimodal CNN–transformer network for gait pattern recognition with wearable sensors in weak GNSS scenarios",
-      "venue": "MDPI Electronics",
-      "paper_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:u-x6o8ySG0sC",
-      "status": "已发表",
-      "paper_state": "published",
-      "summary": "面向弱 GNSS 场景，利用可穿戴传感器与多模态 CNN–Transformer 网络进行步态模式识别。",
-      "rankings": [
-        {
-          "label": "JCR Q2",
-          "note": "JCR · 电气与电子工程",
-          "url": "https://www.mdpi.com/journal/Electronics"
-        }
-      ]
+      "authorship": "第三作者",
+      "image": "images/work/sensors.webp",
+      "image_thumb": "images/work/sensors-640.webp"
     },
     {
       "title": "Multimodal spatiotemporal feature-based human motion pattern recognition with CNN-transformer-attention framework",
@@ -158,7 +161,9 @@
           "note": "JCR 分区 · 2025 年数据",
           "url": "https://www.iit.comillas.edu/publicacion/info_revista/en/937/IEEE_Internet_of_Things_Journal"
         }
-      ]
+      ],
+      "image": "images/work/iot.webp",
+      "image_thumb": "images/work/iot-640.webp"
     }
   ],
   "engineering": [
@@ -167,20 +172,28 @@
       "title": "单目视觉目标物测量装置",
       "description": "负责主要算法开发，实现非接触测距、复杂图形尺寸识别与倾斜校正。2 m 内测距误差小于 2 cm，尺寸误差不超过 0.5 cm。",
       "result": "全国大学生电子设计竞赛全国二等奖、北京市一等奖",
-      "repo": "https://github.com/singledog957/NUEDC2025"
+      "repo": "https://github.com/singledog957/NUEDC2025",
+      "image": "images/work/monocular-measurement.webp",
+      "image_thumb": "images/work/monocular-measurement-640.webp",
+      "image_generated": true
     },
     {
       "date": "2024.09–2025.02",
       "title": "健康监测手环",
       "description": "基于多传感器融合完成 ECG、PPG 信号实时采集与处理，提取心率、血氧指标并进行 HRV 分析。",
       "result": "Paper",
-      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C"
+      "result_url": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fXpNMakAAAAJ&citation_for_view=fXpNMakAAAAJ:d1gkVwhDpl0C",
+      "image": "images/work/sensors.webp",
+      "image_thumb": "images/work/sensors-640.webp"
     },
     {
       "date": "2024.08",
       "title": "单相功率分析仪",
       "description": "负责主要代码开发，完成单相交流电压、电流采集与分析。整体功耗不超过 50 mW，分析误差不超过 1%，支持 13 次谐波有效值分析。",
-      "result": "北京市电子设计竞赛一等奖"
+      "result": "北京市电子设计竞赛一等奖",
+      "image": "images/work/single-phase-analyzer.webp",
+      "image_thumb": "images/work/single-phase-analyzer-640.webp",
+      "image_generated": true
     }
   ],
   "demos": [
@@ -224,13 +237,15 @@
       "date": "2025.08",
       "name": "全国大学生电子设计竞赛",
       "award": "全国二等奖",
-      "featured": true
+      "featured": true,
+      "note": "北京市前 **5%**"
     },
     {
       "date": "2025.05",
       "name": "首都挑战杯课外学术科技作品竞赛（专项赛道）",
       "award": "特等奖、一等奖",
-      "featured": true
+      "featured": true,
+      "note": "北京市前 **3%**"
     },
     {
       "date": "2025.08",
@@ -241,27 +256,32 @@
     {
       "date": "2025.08",
       "name": "“京彩大创”北京大学生创新创业大赛",
-      "award": "一等奖"
+      "award": "一等奖",
+      "note": "北京市前 **3%**"
     },
     {
       "date": "2025.06",
       "name": "北京市集成电路设计大赛",
-      "award": "二等奖"
+      "award": "二等奖",
+      "note": "前 **10%**"
     },
     {
       "date": "2025.06",
       "name": "“冯如杯”主赛道（论文组）",
-      "award": "一等奖、二等奖"
+      "award": "一等奖、二等奖",
+      "note": "前 **3%**"
     },
     {
       "date": "2025.06",
       "name": "北航电子创新大赛",
-      "award": "一等奖、二等奖"
+      "award": "一等奖、二等奖",
+      "note": "前 **5%**"
     },
     {
       "date": "2024.08",
       "name": "全国大学生电子设计竞赛（北京赛区）",
-      "award": "一等奖"
+      "award": "一等奖",
+      "note": "北京市前 **3%**"
     },
     {
       "date": "2024.06",
@@ -291,7 +311,8 @@
     {
       "date": "2025",
       "name": "中电科“Ceyear思仪”奖学金",
-      "award": "获奖"
+      "award": "获奖",
+      "note": "北航每年仅 **20** 人"
     }
   ],
   "name": "谢雨鑫",
@@ -307,7 +328,7 @@
     "作品",
     "经历"
   ],
-  "heading": "面向机器学习的存内计算加速",
+  "heading": "Yuxin Xie · 谢雨鑫",
   "bio": [
     "我研究**模拟存算一体（Analog CIM）**硬件的非理想性如何影响神经网络推理，并设计**硬件感知算法**，提高推理的鲁棒性与效率。",
     "我目前在北京航空航天大学集成电路科学与工程学院攻读硕士学位，本科毕业于北京航空航天大学电子信息工程专业。"
@@ -340,7 +361,7 @@
   "no_paper": "暂无论文",
   "blog_title": "技术博客",
   "blog_description": "研究笔记、项目记录与日常思考",
-  "site_title": "谢雨鑫 Yuxin Xie · 学术主页",
+  "site_title": "Yuxin Xie · 谢雨鑫",
   "description": "谢雨鑫的个人学术主页：模拟存算一体、硬件感知机器学习、论文与电子工程项目。",
   "research": [
     {
@@ -352,7 +373,9 @@
       "repo": "https://github.com/singledog957/ACTIC2025",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "参赛：先进计算技术创新大赛（ACTIC）"
+      "competition": "参赛：先进计算技术创新大赛（ACTIC）",
+      "image": "images/work/elisa.webp",
+      "image_thumb": "images/work/elisa-640.webp"
     },
     {
       "short": "ADAPT",
@@ -363,7 +386,9 @@
       "repo": "",
       "paper_state": "no_paper",
       "paper_url": "",
-      "competition": "参赛：2026 Inno CIM 存算一体高校挑战赛 · 一等奖"
+      "competition": "参赛：2026 Inno CIM 存算一体高校挑战赛 · 一等奖",
+      "image": "images/work/adapt.webp",
+      "image_thumb": "images/work/adapt-640.webp"
     }
   ],
   "education": [
@@ -399,5 +424,7 @@
   ],
   "expand_papers": "展开全部论文",
   "expand_research": "展开全部研究",
-  "collapse": "收起"
+  "collapse": "收起",
+  "enlarge_image": "查看大图",
+  "generated_image": "AI 生成示意图"
 }

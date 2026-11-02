@@ -32,3 +32,23 @@
 .venue-group{display:flex;align-items:center;flex-wrap:wrap;gap:6px}.venue-ranking{display:inline-block;border:1px solid #cddbe5;border-radius:3px;padding:1px 7px;font-size:11px;line-height:1.8;font-weight:600;white-space:nowrap;color:var(--blue);background:#fff}.paper-authorship{font-weight:600;color:var(--ink)}
 
 .demo-main{display:block;color:inherit}.demo-main:hover{text-decoration:none}.demo-featured{grid-column:1 / -1}.demo-featured .demo-title{font-size:23px}.demo-featured .project-metrics{margin-bottom:0}.demo-featured .project-actions{margin-top:14px}
+
+/* Full, uncropped figures sit beside each work; the link opens a larger image. */
+.brand{font-size:22px}
+.paper,.research-item,.engineering-item,html[lang=en-US] .engineering-item{display:grid;grid-template-columns:210px minmax(0,1fr);gap:24px;align-items:start}
+.work-copy{min-width:0}
+.work-figure{margin:4px 0 0;min-width:0}
+.work-image-link{display:flex;align-items:center;justify-content:center;min-height:130px;padding:6px;border:1px solid var(--line);border-radius:5px;background:#fff}
+.work-image{display:block;width:100%;height:auto;max-height:180px;object-fit:contain}
+.work-figure figcaption{margin-top:5px;font-size:11px;line-height:1.5;color:var(--muted)}
+.interest-image{display:block;width:100%;max-width:290px;height:auto;margin-top:20px}
+.education-heading{display:flex;align-items:center;gap:10px}
+.education-logo{width:44px;height:44px;object-fit:contain;flex-shrink:0}
+.award-result{text-align:right;color:var(--blue)}
+.awards .award-result b{font-weight:500}
+.awards .award-featured .award-result b{font-weight:650}
+.award-note{margin:4px 0 0;font-size:12px;line-height:1.6;color:var(--muted)}
+.award-note strong{font-weight:750;color:var(--ink)}
+@media(max-width:1000px) and (min-width:701px){.paper,.research-item,.engineering-item,html[lang=en-US] .engineering-item{grid-template-columns:160px minmax(0,1fr);gap:18px}.brand{font-size:19px}.navigation{gap:15px}.nav-links{gap:12px}}
+@media(max-width:700px){.paper,.research-item,.engineering-item,html[lang=en-US] .engineering-item{grid-template-columns:220px minmax(0,1fr);gap:18px}.award-result{grid-column:2;text-align:left}.brand{font-size:20px}.work-image-link{min-height:110px}}
+@media(max-width:540px){.paper,.research-item,.engineering-item,html[lang=en-US] .engineering-item{grid-template-columns:minmax(0,1fr);gap:14px}.work-image{max-height:230px}.work-image-link{min-height:0;padding:10px}.academic-basics,html[lang=en-US] .academic-basics{grid-template-columns:minmax(0,1fr)}.interest-image{max-width:300px}.education-heading{margin-top:8px!important}}

@@ -18,7 +18,7 @@
       <p class="eyebrow">COMPUTE-IN-MEMORY & HARDWARE-AWARE ML</p>
       <h2>{{ $d.heading }}</h2>
       {{ range $d.bio }}<p>{{ . | markdownify }}</p>{{ end }}
-      <div class="academic-basics"><div><h3>{{ $d.interest_title }}</h3><ul>{{ range $d.interests }}<li>{{ . }}</li>{{ end }}</ul></div><div><h3>{{ $d.education_title }}</h3>{{ range $d.education }}<p class="education-entry">{{ with .institution }}<b>{{ . }}</b><br>{{ end }}{{ .degree }}{{ with .date }}<br><span class="muted">{{ . }}</span>{{ end }}</p>{{ end }}<p class="education-note">{{ $d.education_note }}</p></div></div>
+      <div class="academic-basics"><div><h3>{{ $d.interest_title }}</h3><ul>{{ range $d.interests }}<li>{{ . }}</li>{{ end }}</ul><img class="interest-image" src="{{ "images/work/imc.webp" | relURL }}" alt="{{ $d.interest_title }} — analog compute-in-memory" width="576" height="279" decoding="async"></div><div><h3 class="education-heading"><img class="education-logo" src="{{ "images/work/buaa.webp" | relURL }}" alt="{{ $d.university }}" width="48" height="48" decoding="async">{{ $d.education_title }}</h3>{{ range $d.education }}<p class="education-entry">{{ with .institution }}<b>{{ . }}</b><br>{{ end }}{{ .degree }}{{ with .date }}<br><span class="muted">{{ . }}</span>{{ end }}</p>{{ end }}<p class="education-note">{{ $d.education_note }}</p></div></div>
       <a class="text-link" href="#research">{{ $d.view_research }} <span>↓</span></a>
     </div>
   </section>
@@ -38,7 +38,7 @@
   </section>
   <section id="engineering" class="section wrap">
     <div class="section-label"><span>03 / ENGINEERING</span><h2>{{ $d.engineering_title }}</h2><p>{{ $d.engineering_subtitle }}</p></div>
-    <div class="section-content">{{ range $d.engineering }}<article class="engineering-item"><div class="engineering-date">{{ .date }}</div><div><h3>{{ .title }}</h3><p>{{ .description }}</p><p class="achievement">{{ if .result_url }}<a href="{{ .result_url }}">{{ .result }}</a>{{ else }}{{ .result }}{{ end }}</p>{{ with .repo }}<a class="text-link small" href="{{ . }}">{{ partial "github-icon.html" . }} {{ $d.code }} ↗</a>{{ end }}</div></article>{{ end }}</div>
+    <div class="section-content">{{ range $d.engineering }}<article class="engineering-item">{{ partial "work-image.html" (dict "item" . "labels" $d) }}<div class="work-copy"><div class="engineering-date">{{ .date }}</div><h3>{{ .title }}</h3><p>{{ .description }}</p><p class="achievement">{{ if .result_url }}<a href="{{ .result_url }}">{{ .result }}</a>{{ else }}{{ .result }}{{ end }}</p>{{ with .repo }}<a class="text-link small" href="{{ . }}">{{ partial "github-icon.html" . }} {{ $d.code }} ↗</a>{{ end }}</div></article>{{ end }}</div>
   </section>
   <section id="projects" class="section wrap">
     <div class="section-label"><span>04 / PROJECTS</span><h2>{{ $d.projects_title }}</h2><p>{{ $d.projects_subtitle }}</p></div>
@@ -46,7 +46,7 @@
   </section>
   <section id="awards" class="section wrap">
     <div class="section-label"><span>05 / RECOGNITION</span><h2>{{ $d.awards_title }}</h2></div>
-    <div class="section-content"><ul class="awards">{{ range $d.awards }}<li{{ if .featured }} class="award-featured"{{ end }}><time class="award-date">{{ .date }}</time><span>{{ .name }}</span><b>{{ .award }}</b></li>{{ end }}</ul></div>
+    <div class="section-content"><ul class="awards">{{ range $d.awards }}<li{{ if .featured }} class="award-featured"{{ end }}><time class="award-date">{{ .date }}</time><span>{{ .name }}</span><div class="award-result"><b>{{ .award }}</b>{{ with .note }}<p class="award-note">{{ . | markdownify }}</p>{{ end }}</div></li>{{ end }}</ul></div>
   </section>
   <section id="experience" class="section wrap">
     <div class="section-label"><span>06 / EXPERIENCE</span><h2>{{ $d.experience_title }}</h2><p>{{ $d.experience_subtitle }}</p></div>
