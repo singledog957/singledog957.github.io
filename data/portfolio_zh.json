@@ -95,11 +95,11 @@
     },
     {
       "venue": "DAC 2027",
-      "status": "已录用 · 未见刊",
+      "status": "已发表",
       "title": "IGNITE: An Inquisitive and Graph-Aware Neural CircuitSimulator with Two-Stage Enhanced In-Context Learning",
       "summary": "结合图结构与两阶段上下文学习的神经电路模拟。",
-      "paper_url": "",
-      "paper_state": "forthcoming",
+      "paper_url": "https://dl.acm.org/doi/10.1145/3770743.3804163",
+      "paper_state": "published",
       "rankings": [
         {
           "label": "CCF-A",
@@ -112,12 +112,12 @@
     },
     {
       "venue": "ISEDA 2027",
-      "status": "已录用 · 未见刊",
+      "status": "已发表",
       "authorship": "第三作者",
       "title": "Toward Reliable Analog In-Memory Computing: Co-Design of Hardware-Aware Input Processing and Accuracy-Optimized Weight Mapping",
       "summary": "硬件感知输入处理与权重映射的协同设计。",
       "paper_url": "https://ieeexplore.ieee.org/document/11751468/",
-      "paper_state": "forthcoming",
+      "paper_state": "published",
       "image": "images/work/iseda.webp",
       "image_thumb": "images/work/iseda.webp"
     },
