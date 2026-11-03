@@ -161,9 +161,10 @@
     {
       "venue": "ISEDA 2027",
       "status": "Accepted · Forthcoming",
+      "authorship": "Third author",
       "title": "Toward Reliable Analog In-Memory Computing: Co-Design of Hardware-Aware Input Processing and Accuracy-Optimized Weight Mapping",
       "summary": "Co-design of hardware-aware input processing and accuracy-oriented weight mapping.",
-      "paper_url": "",
+      "paper_url": "https://ieeexplore.ieee.org/document/11751468/",
       "paper_state": "forthcoming",
       "image": "images/work/iseda.webp",
       "image_thumb": "images/work/iseda.webp"
