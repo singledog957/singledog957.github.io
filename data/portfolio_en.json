@@ -14,15 +14,14 @@
   ],
   "heading": "Yuxin Xie · 谢雨鑫",
   "bio": [
-    "I study how non-idealities in **analog compute-in-memory (CIM)** hardware affect neural network inference, and design **hardware-aware algorithms** to improve robustness and efficiency.",
-    "I am a master’s student at the School of Integrated Circuit Science and Engineering, Beihang University. I received my B.Eng. in Electronic Information Engineering from Beihang University."
+    "I study the **decoding and memory bottlenecks** in large language model inference and design **algorithms and GPU kernels** to reduce latency and improve throughput."
   ],
   "interest_title": "Research interests",
   "interests": [
-    "Analog CIM non-ideality modeling",
-    "Noise-aware training and distillation",
-    "Efficient calibration and compensation",
-    "Efficient LLM inference and CIM acceleration"
+    "Speculative decoding and draft verification",
+    "Long-context inference and KV cache compression",
+    "Low-precision inference and GPU kernel optimization",
+    "Hardware-aware inference and CIM acceleration"
   ],
   "education_title": "Education",
   "education_note": "Rank: 2/33 · CET-6: 639 · Outstanding Graduate of Beihang University",
@@ -46,7 +45,7 @@
   "blog_title": "Technical blog",
   "blog_description": "Research notes, project write-ups, and reflections",
   "site_title": "Yuxin Xie · 谢雨鑫",
-  "description": "Yuxin Xie — analog compute-in-memory, hardware-aware machine learning, publications, and electronic engineering projects.",
+  "description": "Yuxin Xie — LLM inference acceleration, hardware-aware inference, publications, and engineering projects.",
   "publications": [
     {
       "venue": "DATE 2027",
@@ -86,6 +85,13 @@
     },
     {
       "venue": "AAAI 2027",
+      "rankings": [
+        {
+          "label": "CCF-A",
+          "note": "CCF recommended conferences",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+        }
+      ],
       "status": "Under review",
       "authorship": "Third author",
       "title": "ASD: Approximate Speculative Decoding",

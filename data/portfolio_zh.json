@@ -38,6 +38,13 @@
     },
     {
       "venue": "AAAI 2027",
+      "rankings": [
+        {
+          "label": "CCF-A",
+          "note": "CCF 推荐国际学术会议目录",
+          "url": "https://www.ccf.org.cn/Academic_Evaluation/AI/"
+        }
+      ],
       "status": "在投",
       "authorship": "第三作者",
       "title": "ASD: Approximate Speculative Decoding",
@@ -342,15 +349,14 @@
   ],
   "heading": "Yuxin Xie · 谢雨鑫",
   "bio": [
-    "我研究**模拟存算一体（Analog CIM）**硬件的非理想性如何影响神经网络推理，并设计**硬件感知算法**，提高推理的鲁棒性与效率。",
-    "我目前在北京航空航天大学集成电路科学与工程学院攻读硕士学位，本科毕业于北京航空航天大学电子信息工程专业。"
+    "我研究大语言模型推理中的**解码与访存瓶颈**，并设计**推理算法和 GPU 算子**，以降低延迟、提高吞吐量。"
   ],
   "interest_title": "研究兴趣",
   "interests": [
-    "模拟存算非理想性建模",
-    "噪声感知训练与知识蒸馏",
-    "高效校准与算法补偿",
-    "大语言模型的高效推理与存内计算加速"
+    "推测解码与草稿验证",
+    "长上下文推理与 KV 缓存压缩",
+    "低精度推理与 GPU 算子优化",
+    "硬件感知推理与存内计算加速"
   ],
   "education_title": "教育经历",
   "education_note": "专业排名 2/33 · CET-6 639 · 北航优秀毕业生",
@@ -374,7 +380,7 @@
   "blog_title": "技术博客",
   "blog_description": "研究笔记、项目记录与日常思考",
   "site_title": "Yuxin Xie · 谢雨鑫",
-  "description": "谢雨鑫的个人学术主页：模拟存算一体、硬件感知机器学习、论文与电子工程项目。",
+  "description": "谢雨鑫的个人学术主页，涵盖大语言模型推理加速、硬件感知推理、论文与工程项目。",
   "research": [
     {
       "short": "ELISA",
