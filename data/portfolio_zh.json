@@ -37,6 +37,17 @@
       "image_thumb": "images/work/cnkd-640.webp"
     },
     {
+      "venue": "AAAI 2027",
+      "status": "在投",
+      "authorship": "第三作者",
+      "title": "ASD: Approximate Speculative Decoding",
+      "summary": "通过带风险预算的近似验证接受与目标模型分歧较小的草稿 token，并复用后续已评分的 token，无需增加目标模型的前向计算。",
+      "paper_url": "",
+      "paper_state": "review",
+      "image": "images/work/asd.webp",
+      "image_alt": "严格贪心验证与 ASD 近似验证流程对比"
+    },
+    {
       "venue": "ICSICT 2026",
       "status": "已录用 · 未见刊",
       "title": "RBGR: Backward-Only Residual Gradient Reweighting for Robust Analog CIM Inference",
