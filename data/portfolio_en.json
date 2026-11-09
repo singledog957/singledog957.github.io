@@ -24,7 +24,7 @@
     "Hardware-aware inference and CIM acceleration"
   ],
   "education_title": "Education",
-  "education_note": "Rank: 2/33 · CET-6: 639 · Outstanding Graduate of Beihang University",
+  "education_note": "Rank: **2/33** · CET-6: 639 · Outstanding Graduate of Beihang University",
   "view_research": "Explore competitions",
   "papers_title": "Publications",
   "papers_subtitle": "Published, accepted, and submitted work",
@@ -345,7 +345,8 @@
       "date": "2025.08",
       "name": "China International College Students’ Innovation Competition — Beijing, Main Track",
       "award": "First Prize",
-      "featured": true
+      "featured": true,
+      "note": "Top **5%** in Beijing"
     },
     {
       "date": "2025.08",
@@ -357,19 +358,19 @@
       "date": "2025.06",
       "name": "Beijing Integrated Circuit Design Competition",
       "award": "Second Prize",
-      "note": "Top **10%**"
+      "note": "Top **10%** in Beijing"
     },
     {
       "date": "2025.06",
       "name": "Beihang Feng Ru Cup — Main Track, Paper Category",
       "award": "First Prize · Second Prize",
-      "note": "Top **3%**"
+      "note": "Top **3%** at Beihang"
     },
     {
       "date": "2025.06",
       "name": "Beihang Electronic Innovation Competition",
       "award": "First Prize · Second Prize",
-      "note": "Top **5%**"
+      "note": "Top **5%** at Beihang"
     },
     {
       "date": "2024.08",
@@ -380,30 +381,32 @@
     {
       "date": "2024.06",
       "name": "Electronic Information and Intelligent Hardware Innovation Competition",
-      "award": "Second Prize"
+      "award": "Second Prize",
+      "note": "Top **10%** at Beihang"
     },
     {
       "date": "2023.12",
-      "name": "National Undergraduate Mathematics Competition — Preliminary Round",
-      "award": "Second Prize"
+      "name": "National Undergraduate Mathematics Competition",
+      "award": "Second Prize",
+      "note": "Top **10%** in Beijing"
     },
     {
-      "date": "",
+      "date": "2026.06",
       "name": "Outstanding Graduate, Beihang University",
       "award": "Honor"
     },
     {
-      "date": "",
+      "date": "2025.12",
       "name": "Beihang Academic Competition Scholarship",
       "award": "Grand Prize"
     },
     {
-      "date": "",
+      "date": "2024.12",
       "name": "Beihang Academic Excellence Scholarship",
       "award": "First Prize"
     },
     {
-      "date": "2025",
+      "date": "2026.03",
       "name": "CETC Ceyear Scholarship",
       "award": "Recipient",
       "note": "Only **20** recipients at Beihang each year"
