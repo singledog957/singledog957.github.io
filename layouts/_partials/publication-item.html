@@ -7,7 +7,7 @@
     <span>{{ .status }}</span>{{ with .authorship }}<span class="paper-authorship">{{ . }}</span>{{ end }}
   </div>
   <h3>{{ if .paper_url }}<a href="{{ .paper_url }}">{{ .title }}</a>{{ else }}{{ .title }}{{ end }}</h3>
-  <p>{{ .summary }}</p>{{ partial "paper-link.html" (dict "item" . "labels" $d) }}
+  <p>{{ .summary }}</p><div class="project-actions">{{ partial "paper-link.html" (dict "item" . "labels" $d) }}{{ with .media }}<a class="text-link small" href="{{ .url }}">{{ .label }} ↗</a>{{ end }}</div>
   </div>
 </article>
 {{ end }}

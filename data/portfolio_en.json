@@ -67,11 +67,11 @@
     },
     {
       "venue": "DATE 2027",
-      "status": "Under review",
+      "status": "Accepted",
       "title": "CNKD: Noise-robust and data-efficient knowledge distillation for vision transformers",
       "summary": "Clean-to-noisy knowledge distillation and the trade-off between robust accuracy and training data access.",
       "paper_url": "",
-      "paper_state": "review",
+      "paper_state": "forthcoming",
       "rankings": [
         {
           "label": "CORE-A",
@@ -96,10 +96,14 @@
       "authorship": "Third author",
       "title": "ASD: Approximate Speculative Decoding",
       "summary": "Budgeted approximate verification accepts low-disagreement draft tokens and reuses subsequent tokens already scored by the target model, without extra target-model forward passes.",
-      "paper_url": "",
+      "paper_url": "https://arxiv.org/abs/2608.03447",
       "paper_state": "review",
       "image": "images/work/asd.webp",
-      "image_alt": "Comparison of strict greedy verification and approximate verification with ASD"
+      "image_alt": "Comparison of strict greedy verification and approximate verification with ASD",
+      "media": {
+        "url": "https://mp.weixin.qq.com/s/H7vLf5rL8zkCh3gj8_yarQ",
+        "label": "Featured by Xinzhiyuan (新智元)"
+      }
     },
     {
       "venue": "ICSICT 2026",
@@ -146,7 +150,7 @@
       "status": "Accepted · Forthcoming",
       "title": "ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware",
       "summary": "Adaptive stochastic sampling for diffusion models on analog CIM hardware.",
-      "paper_url": "",
+      "paper_url": "https://arxiv.org/abs/2609.00955",
       "paper_state": "forthcoming",
       "rankings": [
         {
@@ -292,18 +296,18 @@
   ],
   "demos": [
     {
-      "description": "A course assistance tool with over 120k visits and 36 GitHub stars.",
+      "description": "A course assistance tool with over 160k visits and 47 GitHub stars.",
       "logo": "https://duaa.singledog233.top/v2_compressed.svg",
       "url": "https://duaa.singledog233.top",
       "link_label": "Visit website ↗",
       "repo": "https://github.com/singledog957/duaa",
       "metrics": [
         {
-          "value": "120k+",
+          "value": "160k+",
           "label": "Visits"
         },
         {
-          "value": "36",
+          "value": "47",
           "label": "GitHub Stars"
         }
       ],

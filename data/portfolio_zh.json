@@ -20,11 +20,11 @@
     },
     {
       "venue": "DATE 2027",
-      "status": "在投",
+      "status": "已录用",
       "title": "CNKD: 视觉 Transformer 噪声鲁棒性与数据高效知识蒸馏研究",
       "summary": "干净教师到带噪学生的蒸馏恢复，以及精度与训练样本预算之间的权衡。",
       "paper_url": "",
-      "paper_state": "review",
+      "paper_state": "forthcoming",
       "rankings": [
         {
           "label": "CORE-A",
@@ -49,10 +49,14 @@
       "authorship": "第三作者",
       "title": "ASD: Approximate Speculative Decoding",
       "summary": "通过带风险预算的近似验证接受与目标模型分歧较小的草稿 token，并复用后续已评分的 token，无需增加目标模型的前向计算。",
-      "paper_url": "",
+      "paper_url": "https://arxiv.org/abs/2608.03447",
       "paper_state": "review",
       "image": "images/work/asd.webp",
-      "image_alt": "严格贪心验证与 ASD 近似验证流程对比"
+      "image_alt": "严格贪心验证与 ASD 近似验证流程对比",
+      "media": {
+        "url": "https://mp.weixin.qq.com/s/H7vLf5rL8zkCh3gj8_yarQ",
+        "label": "新智元报道"
+      }
     },
     {
       "venue": "ICSICT 2026",
@@ -99,7 +103,7 @@
       "status": "已录用 · 未见刊",
       "title": "ASSERT: Adaptive Stochastic Sampling for Robust Diffusion Models on Analog Compute-in-Memory Hardware",
       "summary": "模拟存算硬件上扩散模型的鲁棒性与自适应随机采样。",
-      "paper_url": "",
+      "paper_url": "https://arxiv.org/abs/2609.00955",
       "paper_state": "forthcoming",
       "rankings": [
         {
@@ -217,18 +221,18 @@
   ],
   "demos": [
     {
-      "description": "面向课程学习的辅助工具，累计访问超过 120k，GitHub 获得 36 Stars。",
+      "description": "面向课程学习的辅助工具，累计访问超过 160k，GitHub 获得 47 Stars。",
       "logo": "https://duaa.singledog233.top/v2_compressed.svg",
       "url": "https://duaa.singledog233.top",
       "link_label": "访问网站 ↗",
       "repo": "https://github.com/singledog957/duaa",
       "metrics": [
         {
-          "value": "120k+",
+          "value": "160k+",
           "label": "访问量"
         },
         {
-          "value": "36",
+          "value": "47",
           "label": "GitHub Stars"
         }
       ],
